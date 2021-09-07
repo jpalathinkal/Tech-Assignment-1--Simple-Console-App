@@ -6,7 +6,10 @@ namespace Tech_Assignment_1__Simple_Console_App
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //Pause to display message
+            Console.WriteLine("Press any key to continue...");
+            Console.WriteLine("Welcome to Josh's app!");
+            Console.ReadKey(true);
         }
     }
 }
